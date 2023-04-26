@@ -176,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 19.886774
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -397,19 +397,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d952b4c86389d7d4ca2af194059d487b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpKey: 32
-  consoleJumpKey: 332
   playerSpeed: 12
-  radius: 0.6
-  groundLayers:
+  canMove: 1
+  isGrounded: 0
+  jumpForce: 12
+  groundMask:
     serializedVersion: 2
     m_Bits: 64
-  isGrounded: 0
-  jumpForce: 10
-  dashSpeed: 20
-  dashDuration: 0.1
-  dashCooldown: 1
-  HorizontalInput: 0
+  circleRadius: 0.6
+  jumpKey: 32
+  dashKey: 304
+  canDash: 0
+  isDashing: 0
+  dashForce: 30
 --- !u!212 &1854314558
 SpriteRenderer:
   m_ObjectHideFlags: 0
